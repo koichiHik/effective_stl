@@ -59,6 +59,7 @@ int ciStringCompareImpl(const string& s1, const string& s2) {
   // ciCharCompareがFalseを返したところで返ってくる．
   PSCI p = mismatch(s1.begin(), s1.end(), s2.begin(), s2.end(), ciCharCompare);
 
+  return 0;
 }
 
 int main(int, char**) {
