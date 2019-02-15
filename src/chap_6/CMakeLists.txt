@@ -1,3 +1,5 @@
 
 
-add_executable(item38_functor item38_functor.cpp)
+add_executable(item38 item38.cpp)
+
+add_executable(item40 item40.cpp)
